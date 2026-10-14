@@ -1,1 +1,69 @@
 
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Java Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Build output
+target/
+build/
+out/
+
+# Gradle
+.gradle/
+gradle-app.setting
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Coverage reports
+coverage/
+jacoco.exec
+
+# Local configuration
+application-local.properties
+application-local.yml
